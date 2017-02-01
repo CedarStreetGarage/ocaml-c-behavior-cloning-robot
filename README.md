@@ -50,41 +50,43 @@ better performance.
 
 ## __Build Requirements - Main System__
 
-you will need the following things on your Raspberry Pi:
+You will need the following things on your Raspberry Pi:
 
 System stuff:
-    * Kernel headers (for v4l2)
-    * v4l2 and associated utilities (v4l2-dev, v4l2-ctl, etc.)
-    * libjpeg (basically for debugging camera issues by optionally saving to file)
+* Kernel headers (for v4l2)
+* v4l2 and associated utilities (v4l2-dev, v4l2-ctl, etc.)
+* libjpeg (basically for debugging camera issues by optionally saving to file)
 
 gcc stuff:
-    * Modern toolchain (gcc 4.9.2)
+* Modern toolchain (gcc 4.9.2)
 
 OCaml stuff:
-    * Modern toolchain (4.03.0) 
+* Modern toolchain (4.03.0) 
 
 Raspberry Pi specific configuration:
-    * Add the following to /boot/cmdline.txt
-        - dwc_otg.fiq_fsm_mask=0x3 
+ * Add the following to /boot/cmdline.txt
+  * dwc_otg.fiq_fsm_mask=0x3 
 
 LCD display:
-    * Add the following to /boot/config.txt
-        - gpu_mem=16
-        - hdmi_group=2
-        - hdmi_mode=4
+* Add the following to /boot/config.txt
+ * gpu_mem=16
+ * hdmi_group=2
+ * hdmi_mode=4
 
 
 
 ## __Build Requirements - Arduino__
 
-    * RCArduino (???)
+You will need the following things for the Arduino:
+
+* RCArduino (???)
 
 
 
 ## __To Do__
 
-    1. Fix the backpropagation C code
-    2. Determine proper ad hoc method for image pre-processing
-    3. Document the Arduino requirements
-    4. Add the Arduino code base
+1. Fix the backpropagation C code
+2. Determine proper ad hoc method for image pre-processing
+3. Document the Arduino requirements
+4. Add the Arduino code base
 
