@@ -1,0 +1,9 @@
+val print_stopped : unit -> unit
+val print_driving : unit -> unit
+val print_training : unit -> unit
+val print_string : string -> unit
+val print_open_error : unit -> unit
+val print_ioctl_error : unit -> unit
+val print_select_error : unit -> unit
+val print_mmap_error : unit -> unit
+val print_close_error : unit -> unit

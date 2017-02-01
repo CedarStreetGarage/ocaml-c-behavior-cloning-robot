@@ -1,0 +1,6 @@
+#https://linuxtv.org/downloads/v4l-dvb-apis/V4L2-PIX-FMT-YUYV.html
+
+# Must install v4l2, v4l2-utils (v4l2-ctl), xawtv and streamer
+v4l2-ctl --set-fmt-video=width=160,height=120 --set-ctrl=contrast=255,saturation=0,brightness=200
+streamer -c /dev/video0 -b 16 -o outfile.jpeg
+
