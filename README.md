@@ -83,7 +83,7 @@ You will need the following things for the Arduino:
 
 
 
-## __ Additional Resources__
+## __Additional Resources__
 
 * RC with Arduino
  * http://rcarduino.blogspot.com/2012/11/how-to-read-rc-channels-rcarduinofastlib.html
