@@ -83,6 +83,22 @@ You will need the following things for the Arduino:
 
 
 
+## __ Additional Resources__
+
+* RC with Arduino
+ * http://rcarduino.blogspot.com/2012/11/how-to-read-rc-channels-rcarduinofastlib.html
+ * http://rcarduino.blogspot.com/2012/01/how-to-read-rc-receiver-with.html
+
+* V4L
+ * https://linuxtv.org/downloads/v4l-dvb-apis/V4L2-PIX-FMT-YUYV.html
+ * Install: v4l2, v4l2-utils (v4l2-ctl), xawtv and streamer (debugging) 
+ 
+* V4l Command line
+ * v4l2-ctl --set-fmt-video=width=160,height=120 --set-ctrl=contrast=255,saturation=0,brightness=200
+ * streamer -c /dev/video0 -b 16 -o outfile.jpeg
+
+
+
 ## __To Do__
 
 1. Fix the backpropagation C code
