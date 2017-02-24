@@ -12,8 +12,8 @@ relatively smooth surfaces, and the ability to make very fast turns.
 ## __Goals__
 
 The goal is to be able to learn how to navigate based on video stimulus,
-with training accomplished as fast as possible (on the order of minutes).  
-The framework is a fully connected network for learning, with preprocessing 
+with training accomplished as fast as possible (on the order of minutes).  The 
+framework is a fully connected network for learning, with preprocessing 
 to reduce the feature space to a size that is managable with the constraints 
 on training time.  The design objective is that all tasks are able to be
 accomplished in real time on a Rasbperry Pi.
